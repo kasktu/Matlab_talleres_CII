@@ -1,3 +1,6 @@
+%@autor: Erik Santiago Guerrrero Bautista
+%Este script ha sido creado para solucionar el problema 1
+%de el primer taller de Circuitos 2
 clear all 
 %voltaje de las fuentes
 Van=100+0j;

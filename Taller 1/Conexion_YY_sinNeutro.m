@@ -1,8 +1,17 @@
+%@autor: Erik Santiago Guerrrero Bautista
+%Este script ha sido creado para solucionar el problema 2
+%de el primer taller de Circuitos 2
 clear all
 %Valor de las Impedancias
-Z1=input('Ingrese el valor de la Impedancia Z1: ')%0+30j;
-Z2=input('Ingrese el valor de la Impedancia Z2: ')%10-40j;
-Z3=input('Ingrese el valor de la Impedancia Z3: ')%20+10j;
+
+Z1=input('Ingrese el valor de la Impedancia Z1: ');
+Z2=input('Ingrese el valor de la Impedancia Z2: ');
+Z3=input('Ingrese el valor de la Impedancia Z3: ');
+
+%Z1=0+30j;
+%Z2=10-40j;
+%Z3=20+10j;
+
 %valor de las fuentes
 Van=100+0j;
 Vbn=-50-86.60j;
