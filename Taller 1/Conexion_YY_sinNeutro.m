@@ -61,10 +61,4 @@ S_consumida = S_perdida+S_cargas
 %redondeo para comprobacion
 S_consumida=round(S_consumida,4)
 S_entregada=round(S_entregada,4)
-if S_consumida == S_entregada
-    disp('la potencia entregada es igual a la consumida')
-    disp('el ejercicio ha quedado bien \ :v /')
-else
-    disp('la potencia entregada es diferente a la consumida')
-    disp('el ejercicio ha quedado mal, revisar')
-end    
+   
