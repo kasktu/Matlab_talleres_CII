@@ -7,12 +7,12 @@ Van=100+0j;
 Vbn=-50-86.60j;
 Vcn=-50+86.60j;
 %resistencia del cable
-R=0.5;
+R=0;
 %impedacias
 
-Z1=input('Ingrese el valor de la Impedancia Z1: ');
-Z2=input('Ingrese el valor de la Impedancia Z2: ');
-Z3=input('Ingrese el valor de la Impedancia Z3: ');
+Z1=150
+Z2=150
+Z3=150
 
 %Z1=1000+0j;
 %Z2=2000+1000j;
@@ -42,8 +42,8 @@ S_entregada = S_Van+S_Vbn+S_Vcn
 %calculo de la potencia consumida total
 S_consumida = S_perdida+S_cargas
 %redondeo para comprobacion
-S_consumida=round(S_consumida,4)
-S_entregada=round(S_entregada,4)
+S_consumida=round(S_consumida,2)
+S_entregada=round(S_entregada,2)
 if S_consumida == S_entregada
     disp('la potencia entregada es igual a la consumida')
     disp('el ejercicio ha quedado bien \ :v /')
